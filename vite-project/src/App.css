@@ -72,3 +72,9 @@ main {
   color: black;
   padding: 10px;
 }
+
+.suggested-recipe-container {
+  line-height: 28px;
+  font-size: 1.125rem;
+  font-weight: 400;
+}

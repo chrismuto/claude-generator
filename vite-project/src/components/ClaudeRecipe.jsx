@@ -1,7 +1,10 @@
-function ClaudeRecipe() {
+import Markdown from 'react-markdown'
+
+function ClaudeRecipe(props) {
     return (
-        <section>
-        <h2>Chef Claude recommends</h2>
+        <section className="suggested-recipe-container" aria-live="polite">
+            <h2>Chef Claude recommends:</h2>
+            <Markdown>{props.recipe}</Markdown>
         </section>
     )
 }
