@@ -7,7 +7,7 @@ mention, but try not to include too many extra ingredients. Format your response
 // const apiKey = import.meta.env.VITE_ANTHROPIC_API_KEY;
 
 const anthropic = new Anthropic ({
-    // apiKey: apiKey,
+    apiKey: apiKey,
     dangerouslyAllowBrowser: true,
 });
 
